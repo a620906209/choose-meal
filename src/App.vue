@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
+    <RestaurantSwiper />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import RestaurantSwiper from './components/RestaurantSwiper.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    RestaurantSwiper
   }
 }
 </script>
